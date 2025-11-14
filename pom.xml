@@ -61,7 +61,7 @@
 		<dependency>
 			<groupId>com.temenos.infinity</groupId>
 			<artifactId>OriginationWorkItem</artifactId>
-			<version>25.0.0</version>
+			<version>23.0.3-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
