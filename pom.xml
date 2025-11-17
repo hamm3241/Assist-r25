@@ -19,6 +19,11 @@
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
+    <groupId>org.drools</groupId>
+    <artifactId>drools-model-compiler</artifactId>
+    <version>8.29.0.Final-redhat-00018</version>
+</dependency>
+		<dependency>
 			<groupId>org.kie</groupId>
 			<artifactId>kie-internal</artifactId>
 			<version>7.67.2.Final-redhat-00014</version>
@@ -59,11 +64,12 @@
 			<version>2.8.9</version>
 		</dependency>
 		<dependency>
-			<groupId>com.temenos.infinity</groupId>
-			<artifactId>OriginationWorkItem</artifactId>
-			<version>23.0.3-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
+      <groupId>com.temenos.infinity</groupId>
+      <artifactId>OriginationWorkItem</artifactId>
+      <systemPath>../binaries/Origination/OriginationWorkItem-25.0.0.jar</systemPath>
+      <version>25.0.0</version>
+      <scope>system</scope>
+    </dependency>
 		<dependency>
 			<groupId>javax.persistence</groupId>
 			<artifactId>persistence-api</artifactId>
